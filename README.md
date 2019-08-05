@@ -1,5 +1,7 @@
 # Faiss Web Service
 
+English Readme is [here](./README-EN.md).
+
 ## 简述
 
 本项目 forked from [plippe/faiss-web-service](https://github.com/plippe/faiss-web-service)。
