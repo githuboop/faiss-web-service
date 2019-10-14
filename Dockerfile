@@ -1,4 +1,4 @@
-ARG IMAGE=Linux
+ARG IMAGE=linux:latest
 FROM ${IMAGE}
 
 COPY requirements.txt /opt/faiss-web-service/requirements.txt
