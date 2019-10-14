@@ -1,4 +1,4 @@
-ARG IMAGE
+ARG IMAGE=centos:7
 FROM ${IMAGE}
 
 COPY requirements.txt /opt/faiss-web-service/requirements.txt
