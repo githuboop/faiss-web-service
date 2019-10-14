@@ -1,5 +1,5 @@
-ARG IMAGE=linux:latest
-FROM ${IMAGE}
+#ARG IMAGE=linux 
+FROM linux
 
 COPY requirements.txt /opt/faiss-web-service/requirements.txt
 RUN conda install -y -c conda-forge --file /opt/faiss-web-service/requirements.txt
